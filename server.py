@@ -1,6 +1,6 @@
 import socket
 
-s = socket.socket(socket.AF_NET, socket.SOCK_STREAM) #AF_NET = ipv4, SOCK_STREAM = TCP (streaming socket)
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #AF_NET = ipv4, SOCK_STREAM = TCP (streaming socket)
 s.bind((socket.gethostname(), 3141))
 s.listen(5)
 
