@@ -12,4 +12,4 @@ i = 0
 
 while True:
     time.sleep(2)
-    clientsocket.send(bytes(f"{np.random.randint(0, 9) < 5}", "utf-8"))### modified in the rapian
+    clientsocket.send(bytes(f"{np.random.randint(0, 9) < 5}", "utf-8"))### modified in the raspian
