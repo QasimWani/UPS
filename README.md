@@ -16,10 +16,16 @@
   <li>Socket Communication ✅</li>
   <li>Hardware Setup ✅</li>  
 </ol>
+
 ### How it all started:
 ![ups pissed me off](images/piss.jpg)
+
 ### Working Prototype:
+>Full door view
 ![Full door view](images/0.jpg)
+> Close up of the sound sensor (RaspPi4)
 ![close-up](images/1.jpg)
+> Photo at an angle cuz skills
 ![cinematic](images/2.jpg)
+> another one to keep you scrolling...
 ![full door view alt](images/3.jpg)
