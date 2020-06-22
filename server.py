@@ -17,9 +17,10 @@ def callback(sound):
             print("Sound Detected!")
             global_sound = True
             
-GPIO.add_event_callback(sound, callback)  # assign function to GPIO PIN, Run function on chang
+GPIO.add_event_callback(sound, callback)  # assign function to GPIO PIN, Run function on change
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #AF_NET = ipv4, SOCK_STREAM = TCP (streaming socket)
-s.bind((socket.gethostname(), 1999))
+
+s.bind(("172.16.64.29", 3141))
 s.listen(5)
 clientsocket, address = s.accept()
 print(f"Connection from {address} has been established")
