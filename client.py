@@ -9,7 +9,7 @@ MAX_SIZE = 100000
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #AF_NET = ipv4, SOCK_STREAM = TCP (streaming socket)
 s.connect(("172.16.64.29", 3141)) # later on, change hostname param to this machine's IP
-iterator = 1
+i = 1
 LAST_HEARD = datetime.datetime.now()
 print("current date time: ", LAST_HEARD)
 while True:
