@@ -11,8 +11,9 @@ This is what happens when you miss your UPS order...
   <li>Socket Communication ✅</li>
   <li>Hardware Setup ✅</li>  
 </ol>
+
 ### Working Prototype:
-![Prototype image](images/0.jpg)
-![Prototype image](images/1.jpg)
-![Prototype image](images/2.jpg)
-![Prototype image](images/3.jpg)
+![Full door view](images/0.jpg)
+![close-up](images/1.jpg)
+![cinematic](images/2.jpg)
+![full door view alt](images/3.jpg)
