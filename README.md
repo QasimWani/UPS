@@ -9,4 +9,4 @@ This is what happens when you miss your UPS order...
     </ol>
   </li>
   <li>Socket Communication ✅</li>
-  <li>Hardware Setup</li>    
+  <li>Hardware Setup ✅</li>    
