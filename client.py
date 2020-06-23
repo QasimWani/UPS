@@ -17,9 +17,9 @@ while True:
     msg = s.recv(MAX_SIZE) #buffer byte-stream, decoded later
     val = msg.decode("utf-8") == "True"
     if(val):
-        print("Alert Played. Someone knocked!")
-        playsound("alert.mp3")
-        LAST_HEARD = datetime.datetime.now()
+	LAST_HEARD = datetime.datetime.now()
+	print("Alert", LAST_HEARD)
+	playsound("alert.mp3")
     else:
         i+= 1
         if(i%1800 == 0):
